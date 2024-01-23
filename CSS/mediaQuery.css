@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+  #sliderDown{
+    width:95% !important;
+  }
+  /* #sideBar{
+    min-width: 50%;
+  } */
+  #home-content h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 200px;
+}
+.sidenav a {
+  margin: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.sidenav .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  font-size: 36px;
+  margin: 0 !important;
+}
+#home-content span{
+  font-size: 25px;
+  cursor: pointer;
+}
+  
+
+   
+  }
+  @media only screen and (max-width: 912px) {
+  
+    /* #sliderDown{
+      width:80% !important;
+    } */
+
+   
+  }

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overLay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(194, 5, 5, 0.5);
+}
+#sideBar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 20px;
+}
+.sidenav .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+
+    margin: 0 !important;
+}
+.sidenav a:hover{
+    color: #860909;
+}
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+    color: #fff;
+    
+}
+#home-content h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+}
+#home-content p {
+    text-align: center;
+}
+#home-content span{
+    font-size: 30px;
+    cursor: pointer;
+}
+    
+#sliderDown h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+#sliderDown div {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#sliderDown .first {
+    display: block;
+}
+
+/* &-----------------------count Section------------------------ */
+.count{
+    /* background-image: url(../images/invitation-2508607__340.jpg); */
+    background-image:
+            linear-gradient(45deg, 
+              rgba(214, 46, 51 , 0.6), 
+              rgba(214, 46, 51 , 0.6)), url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    /* height: 300px; */
+}
+/* .count-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+} */
+.tim {
+    padding: 50px;
+    border: 1px solid #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+}
+.contact-title{
+    font-weight: bold;
+    font-size: 2.1875rem;
+}
+.contact-info h5{
+    font-weight: bolder;
+}
+.contact-information{
+    list-style: none;
+}
+.social-list i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color: #777;
+}
+.social-list i:hover{
+
+    border: 1px solid #c40505;
+    background-color: #c40505;
+    color: #ffffff;
+}
+#sendBtn{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    display:block;
+    margin-top:10px
+}
+#enterMassage{
+    height: 170px;
+    resize: vertical;
+}
